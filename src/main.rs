@@ -1,3 +1,13 @@
+use std::string;
+
+use inquire::Select;
+
 fn main() {
-    println!("Welcome to workcli!");
+    let options = vec![
+        "Track Time",
+        "Add Task",
+        "View Task",
+    ];
+
+
 }
